@@ -2,23 +2,26 @@ import React, { useState } from "react";
 import "./card.css";
 
 const Card: React.FC<{
-  id: string;
   english: string;
   hebrew: string;
   value: string;
-}> = ({ id, english, hebrew, value }) => {
+}> = ({ english, hebrew, value }) => {
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
+  const [sataticAnswer, setStaticAnswer] = useState<boolean>(false);
   return (
     <div className="card">
-      <div
+      <button
         className="english"
-        onClick={() => setShowAnswer(!showAnswer)}
-        onMouseEnter={() => setShowAnswer(true)}
-        onMouseOut={() => setShowAnswer(false)}
+        onClick={() => {
+          setShowAnswer(!showAnswer);
+          setStaticAnswer(true);
+        }}
+        // onMouseEnter={() => setShowAnswer(true)}
+        // onMouseOut={() => setShowAnswer(false)}
       >
         {`${english} ${hebrew}`}
-      </div>
-      <div className={`${showAnswer ? "" : "hidden"}`}>
+      </button>
+      <div className={`${showAnswer && sataticAnswer ? "show" : "hidden"}`}>
         {<span>{value}</span>}
       </div>
     </div>

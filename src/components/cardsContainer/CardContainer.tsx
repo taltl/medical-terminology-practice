@@ -1,19 +1,18 @@
 import React from "react";
-import Card from "../card/card";
 import "./cardContainer.css";
+import Card from "../card/card";
 
 const CardContainer: React.FC<{
-  cards: { id: string; english: string; hebrew: string; value: string }[];
+  cards: { english: string; hebrew: string; value: string }[];
 }> = ({ cards }) => {
   return (
     <div className="cardContainer">
-      {cards.map((card) => {
+      {cards.map((card, index) => {
         return (
           <Card
-            key={card.id}
+            key={index}
             english={card.english}
             hebrew={card.hebrew}
-            id={card.id}
             value={card.value}
           />
         );

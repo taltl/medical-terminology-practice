@@ -8,11 +8,12 @@
   width: 85%;
   font-size: 20px;
   justify-content: center;
-  background-color: antiquewhite;
+  background: rgb(250, 235, 215, 0.6);
 }
 
 @media (max-width: 992px) {
   .cardContainer {
-    width: 95%;
-  }
+    width: 100%;
+    background-color: rgb(250, 235, 215, 0.6);
+}
 }
