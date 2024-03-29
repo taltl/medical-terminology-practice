@@ -1,0 +1,25 @@
+.card {
+    width: 100px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px grey solid;
+    margin: 10px;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-around;
+    background-color: rgb(255, 119, 22, 0.5);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+@media(max-width: 992px){
+.card{
+    width: 100px;
+    box-sizing: border-box;
+}
+}
