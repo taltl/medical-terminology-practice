@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-select-test/static/css/main.9878a622.css",
-    "main.js": "/react-select-test/static/js/main.956eda76.js",
+    "main.css": "/react-select-test/static/css/main.7cae9565.css",
+    "main.js": "/react-select-test/static/js/main.877adced.js",
     "static/js/453.818ead97.chunk.js": "/react-select-test/static/js/453.818ead97.chunk.js",
     "static/media/uh-background.jpg": "/react-select-test/static/media/uh-background.b8581352140db4e265b1.jpg",
     "index.html": "/react-select-test/index.html",
-    "main.9878a622.css.map": "/react-select-test/static/css/main.9878a622.css.map",
-    "main.956eda76.js.map": "/react-select-test/static/js/main.956eda76.js.map",
+    "main.7cae9565.css.map": "/react-select-test/static/css/main.7cae9565.css.map",
+    "main.877adced.js.map": "/react-select-test/static/js/main.877adced.js.map",
     "453.818ead97.chunk.js.map": "/react-select-test/static/js/453.818ead97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9878a622.css",
-    "static/js/main.956eda76.js"
+    "static/css/main.7cae9565.css",
+    "static/js/main.877adced.js"
   ]
 }
