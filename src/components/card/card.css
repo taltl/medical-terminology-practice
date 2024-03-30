@@ -9,7 +9,7 @@
   align-items: center;
   padding: 15px;
   justify-content: space-around;
-  background-color: rgb(255, 119, 22, 0.5);
+  background-color: rgba(248, 138, 13, 0.8);
   border-radius: 18px;
   border: 2px rgb(253, 237, 211) solid;
 }
