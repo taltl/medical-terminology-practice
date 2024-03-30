@@ -4,16 +4,16 @@ import "./TabsContainer.css";
 
 const tabs = [
   {
-    title: "מילות שורש",
-    url: "source",
+    title: "מילות סיומת",
+    url: "sufix",
   },
   {
     title: "מילות קידומת",
     url: "prefix",
   },
   {
-    title: "מילות סיומת",
-    url: "sufix",
+    title: "מילות שורש",
+    url: "source",
   },
 ];
 
@@ -143,7 +143,10 @@ const TabsContainer: React.FC<{}> = () => {
     <div>
       <div className="btnContainer">
         {tabs.map((tab, index) => (
-          <button className={`tabBtn ${selectTab === index ? 'selectedTab' : ''}`} onClick={() => setSelectTab(index)}>
+          <button
+            className={`tabBtn ${selectTab === index ? "selectedTab" : ""}`}
+            onClick={() => setSelectTab(index)}
+          >
             {tab.title}
           </button>
         ))}
