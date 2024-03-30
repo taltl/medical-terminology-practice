@@ -137,7 +137,7 @@ const sufixWords = [
 const cards = [sufixWords, prefixWords, sourceWordsCards];
 
 const TabsContainer: React.FC<{}> = () => {
-  const [selectTab, setSelectTab] = useState<number>(0);
+  const [selectTab, setSelectTab] = useState<number>(2);
 
   return (
     <div>

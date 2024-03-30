@@ -9,17 +9,22 @@
   align-items: center;
   padding: 15px;
   justify-content: space-around;
-  background-color: rgba(248, 138, 13, 0.8);
+  background-color: rgba(255, 138, 13, 0.8);
   border-radius: 18px;
   border: 2px rgb(253, 237, 211) solid;
+  font-weight: 500;
+  text-align: center;
+  font-size: 15px;
 }
 
 .english{
     border-radius: 10px;
-    /* border-color: bisque; */
     background-color: transparent;
     padding: 10px;
     border: 1px solid bisque;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
 }
 
 /* .english :hover{
