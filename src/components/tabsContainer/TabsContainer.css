@@ -16,3 +16,9 @@
     border-bottom: black 1px solid;
     font-weight: bold;
 }
+
+
+.english:hover {
+  background-color: antiquewhite;
+  border-color: rgb(223, 151, 100);
+}
