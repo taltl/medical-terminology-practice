@@ -95,7 +95,6 @@ const sourceWordsCards = [
   { english: "Ur-, Urin-", hebrew: "אור, אורין", value: "שתן" },
   { english: "Vagina", hebrew: "וגינה", value: "תעלת מין נקבית" },
   { english: "Vertebra", hebrew: "ורטברה", value: "חוליה" },
-  { english: "Vertebra", hebrew: "ורטברה", value: "חוליה" },
   { english: "Vertigo", hebrew: "ורטיגו", value: "סחרחורת" },
 ];
 
