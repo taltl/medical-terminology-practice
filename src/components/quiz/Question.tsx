@@ -1,12 +1,15 @@
-// import { Question } from '../types';
 import Answers from './Answers';
 import Question_module from './Question.module.scss';
 
 type Props = {
-    // question: Question;
-    question: any;
+    question: {
+        question: string;
+        choices: string[];
+        correctAnswerIdx: number;
+    };
     onSubmit: (correct: boolean) => void;
 };
+const choices1 = []
 
 function QuestionComp(props: Props) {
     return (

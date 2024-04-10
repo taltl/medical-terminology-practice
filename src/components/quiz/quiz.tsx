@@ -2,24 +2,36 @@ import React, { useState } from "react";
 import QuestionComp from "./Question";
 import StatBar from "./StatBar";
 import Reset from "./Reset";
+import './quiz.module.scss'
 
-const Quiz: React.FC<{ allQuestions: any }> = ({ allQuestions }) => {
-  // const allQuestions = questions as Questions;
+const Quiz: React.FC<{ allQuestions: any }> = () => {
+  const allQuestions = {
+    "questions": [
+      {
+        "question": "What is my Name?",
+        "choices": ["Tim", "John", "Susan", "Burt"],
+        "correctAnswerIdx": 0
+      },
+      {
+        "question": "What is my last Name?",
+        "choices": ["Ruscica", "Smith", "Ann", "Jose"],
+        "correctAnswerIdx": 0
+      }
+    ]
+  }
 
   const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
-
   const [waitingToAdvance, setWaitingToAdvance] = useState(false);
 
   const onSubmit = (correct: boolean) => {
     if (correct) setCorrectAnswers(correctAnswers + 1);
     else setIncorrectAnswers(incorrectAnswers + 1);
-
     setWaitingToAdvance(true);
   };
 
-  const advance = () => {
+  const advance = () => {    
     setWaitingToAdvance(false);
     setCurrentQuestionIdx(currentQuestionIdx + 1);
   };
@@ -42,7 +54,7 @@ const Quiz: React.FC<{ allQuestions: any }> = ({ allQuestions }) => {
 
   return (
     // <div className={App_module.app}>
-    <div>
+    <div style={{backgroundColor: 'white', padding: '20px'}}>
       <StatBar
         currentQuestion={currentQuestionIdx + 1}
         totalQuestions={allQuestions.questions.length}
@@ -56,7 +68,7 @@ const Quiz: React.FC<{ allQuestions: any }> = ({ allQuestions }) => {
       {waitingToAdvance && (
         <button
           onClick={advance}
-          // className={Classnames(Answer_module.answer, App_module['next-btn'])}
+          className='answer'
         >
           Next Question...
         </button>
