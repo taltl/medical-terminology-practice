@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
-// import { Question } from './../../types';
 import Answer from './Answer';
 import Answers_module from './Answers.module.scss';
 
 type Props = {
-    // question: Question;
     question: {
     question: string;
     choices: string[];

@@ -9,7 +9,6 @@ type Props = {
     };
     onSubmit: (correct: boolean) => void;
 };
-const choices1 = []
 
 function QuestionComp(props: Props) {
     return (

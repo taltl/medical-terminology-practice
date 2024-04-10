@@ -53,8 +53,7 @@ const Quiz: React.FC<{ allQuestions: any }> = () => {
     );
 
   return (
-    // <div className={App_module.app}>
-    <div style={{backgroundColor: 'white', padding: '20px'}}>
+    <div >
       <StatBar
         currentQuestion={currentQuestionIdx + 1}
         totalQuestions={allQuestions.questions.length}
@@ -70,7 +69,7 @@ const Quiz: React.FC<{ allQuestions: any }> = () => {
           onClick={advance}
           className='answer'
         >
-          Next Question...
+          שאלה הבאה
         </button>
       )}
     </div>
