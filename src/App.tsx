@@ -19,8 +19,8 @@ function App() {
   ]
 
   return (
-    // <TabsContainer/>
-    <Quiz allQuestions={questions}/>
+    <TabsContainer/>
+    // <Quiz allQuestions={questions}/>
   );
 }
 
