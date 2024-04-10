@@ -3,7 +3,7 @@ import "./cardContainer.css";
 import Card from "../card/card";
 
 const CardContainer: React.FC<{
-  cards: { english: string; hebrew: string; value: string }[];
+  cards: { english: string; hebrew?: string; value: string }[];
 }> = ({ cards }) => {
   return (
     <div className="cardContainer">
@@ -12,7 +12,7 @@ const CardContainer: React.FC<{
           <Card
             key={index}
             english={card.english}
-            hebrew={card.hebrew}
+            hebrew={card.hebrew ?? ''}
             value={card.value}
           />
         );

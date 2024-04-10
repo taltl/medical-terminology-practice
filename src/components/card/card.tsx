@@ -3,9 +3,9 @@ import "./card.css";
 
 const Card: React.FC<{
   english: string;
-  hebrew: string;
+  hebrew?: string;
   value: string;
-}> = ({ english, hebrew, value }) => {
+}> = ({ english, hebrew = '', value }) => {
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
   const [sataticAnswer, setStaticAnswer] = useState<boolean>(false);
   return (

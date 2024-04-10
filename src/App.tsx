@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Select from "react-select";
 import CardContainer from "./components/cardsContainer/CardContainer";
