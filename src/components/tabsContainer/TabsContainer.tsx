@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CardContainer from "../cardsContainer/CardContainer";
 import "./TabsContainer.css";
-import data from "../../data.json"
+import data from "../../data.json";
 
 const tabs = [
   {
@@ -30,8 +30,8 @@ const pills = data.pills;
 
 const cards = [sufixWords, prefixWords, sourceWordsCards, locationWords];
 
-const TabsContainer: React.FC<{}> = () => {
-  const [selectTab, setSelectTab] = useState<number>(3);
+const TabsContainer: React.FC = () => {
+  const [selectTab, setSelectTab] = useState<number>(2);
 
   return (
     <div>

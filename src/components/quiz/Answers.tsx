@@ -6,7 +6,7 @@ type Props = {
     question: {
     question: string;
     choices: string[];
-    correctAnswerIdx: number;
+    currectAnswerIdx: number;
 };
     onSubmit: (correct: boolean) => void;
 };
@@ -20,15 +20,15 @@ function Answers(props: Props) {
 
     const onPress = (idx: number) => {
         setShowAnswer(true);
-        props.onSubmit(props.question.correctAnswerIdx === idx);
+        props.onSubmit(props.question.currectAnswerIdx === idx);
     };
 
     return (
         <div className={Answers_module.choices}>
-            {props.question.choices.map((choice: string, idx: number) => {
+            {props.question.choices?.map((choice: string, idx: number) => {
                 let color = '';
 
-                if (showAnswer && props.question.correctAnswerIdx === idx) color = 'green';
+                if (showAnswer && props.question.currectAnswerIdx === idx) color = 'green';
                 else if (showAnswer) color = 'red';
 
                 return (

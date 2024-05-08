@@ -5,5 +5,5 @@ export type Questions = {
 export type Question = {
     question: string;
     choices: string[];
-    correctAnswerIdx: number;
+    currectAnswerIdx: number;
 }

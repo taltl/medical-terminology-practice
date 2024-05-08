@@ -1,6 +1,22 @@
-.reset-btn {
-  width: 100%;
-}
-.reset-text {
-  font-family: Verdana, sans-serif;
+.resetContainer {
+  margin-top: 20vh;
+
+  .resetBtn {
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+    background: #F77D24;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+
+  .resetText {
+    margin-top: 20px;
+    text-align: center;
+  }
+
 }
