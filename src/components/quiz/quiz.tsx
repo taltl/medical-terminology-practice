@@ -5,6 +5,8 @@ import Reset from "./Reset";
 import Quiz_module from "./quiz.module.scss";
 
 import data from "../../data.json";
+import { Link } from "react-router-dom";
+import globalClasses from "./../../global.module.scss";
 
 const Quiz: React.FC = () => {
   const getRandom = (arr: string[], n: number): string[] => {
@@ -91,6 +93,9 @@ const Quiz: React.FC = () => {
   if (currentQuestionIdx >= allQuestionsLenght)
     return (
       <div className={Quiz_module.resetContainer}>
+        <div className={globalClasses.back}>
+          <Link to="/">חזרה</Link>
+        </div>
         <Reset
           totalQuestions={allQuestionsLenght}
           correctQuestions={correctAnswers}
@@ -101,6 +106,9 @@ const Quiz: React.FC = () => {
 
   return (
     <div>
+      <div className={globalClasses.back}>
+        <Link to="/">חזרה</Link>
+      </div>
       <StatBar
         currentQuestion={currentQuestionIdx + 1}
         totalQuestions={allQuestionsLenght}

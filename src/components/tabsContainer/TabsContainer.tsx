@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import CardContainer from "../cardsContainer/CardContainer";
 import "./TabsContainer.css";
 import data from "../../data.json";
+import { Link } from "react-router-dom";
+import globalClasses from "./../../global.module.scss";
 
 const tabs = [
   {
@@ -35,6 +37,9 @@ const TabsContainer: React.FC = () => {
 
   return (
     <div>
+      <div className={globalClasses.back}>
+        <Link to="/">חזרה</Link>
+      </div>
       <div className="btnContainer">
         {tabs.map((tab, index) => (
           <button
