@@ -1,21 +1,22 @@
-import StatBar_module from './StatBar.module.scss';
+import classes from "./StatBar.module.scss";
+
 type Props = {
-    currentQuestion: number;
-    totalQuestions: number;
-    correct: number;
-    incorrect: number;
+  currentQuestion: number;
+  totalQuestions: number;
+  correct: number;
+  incorrect: number;
 };
 
 function StatBar(props: Props) {
-    return (
-        <div className={StatBar_module['stat-container']}>
-            <p>
-                Questions: {props.currentQuestion}/{props.totalQuestions}
-            </p>
-            <p>Correct: {props.correct}</p>
-            <p>Incorrect: {props.incorrect}</p>
-        </div>
-    );
+  return (
+    <div className={classes.statrBarContainer}>
+      <p>תשובות שגויות: {props.incorrect}</p>
+      <p>תשובות נכונות: {props.correct}</p>
+      <p>
+        סה"כ שאלות: {props.currentQuestion}/{props.totalQuestions}
+      </p>
+    </div>
+  );
 }
 
 export default StatBar;

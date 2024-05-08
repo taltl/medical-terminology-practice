@@ -1,10 +1,11 @@
-.stat-container {
+.statrBarContainer {
   display: flex;
   flex-direction: row;
   gap: 10px;
   padding: 10px;
-  background-color: #1a1a1a;
-  color: #fffefe;
+  background-color: #f5ac58;
+  color: #0a0a0a;
   font-family: Verdana, sans-serif;
   border-radius: 10px;
+  justify-content: flex-end;
 }

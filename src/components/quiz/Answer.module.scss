@@ -1,16 +1,16 @@
 .answer {
-  width: 47.5%;
+  width: 48%;
   padding: 10px;
-  background-color: #ff7300ec;
+  background-color: rgba(252, 211, 159, 0.9254901961);
   opacity: 80%;
   color: #000000;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 800;
-  border: 1px solid white;
+  font-weight: 500;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 19px;
 
-  &:hover {
-    border: 1px solid rgb(255, 153, 0);
-  }
+  // &:hover {
+  //   border: 1px solid rgb(255, 153, 0);
+  // }
+
+  // rgba(255, 115, 0, 0.9254901961)
 }

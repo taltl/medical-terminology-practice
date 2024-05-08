@@ -7,6 +7,7 @@ import Quiz_module from "./quiz.module.scss";
 import data from "../../data.json";
 import { Link } from "react-router-dom";
 import globalClasses from "./../../global.module.scss";
+import classes from "./quiz.module.scss";
 
 const Quiz: React.FC = () => {
   const getRandom = (arr: string[], n: number): string[] => {
@@ -105,7 +106,7 @@ const Quiz: React.FC = () => {
     );
 
   return (
-    <div>
+    <div className={classes.quizContainer}>
       <div className={globalClasses.back}>
         <Link to="/">חזרה</Link>
       </div>
@@ -118,7 +119,7 @@ const Quiz: React.FC = () => {
       <QuestionComp question={questionObj ?? ({} as any)} onSubmit={onSubmit} />
       {waitingToAdvance && (
         <button onClick={advance} className={Quiz_module.nextQuestion}>
-          שאלה הבאה
+          לשאלה הבאה
         </button>
       )}
     </div>
