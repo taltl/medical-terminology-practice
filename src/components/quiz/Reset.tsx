@@ -13,7 +13,7 @@ function Reset(props: Props) {
         {Math.round((props.correctQuestions / props.totalQuestions) * 100)}%
       </h1>
       <button onClick={props.onPress} className={Reset_module.resetBtn}>
-        לחץ לניסיון נוסף!
+        !לחץ לניסיון נוסף
       </button>
     </div>
   );

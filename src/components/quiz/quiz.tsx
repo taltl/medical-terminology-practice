@@ -9,7 +9,11 @@ import { Link } from "react-router-dom";
 import globalClasses from "./../../global.module.scss";
 import classes from "./quiz.module.scss";
 
-const Quiz: React.FC = () => {
+type QuizProps = {
+  quizData: any[];
+};
+
+const Quiz: React.FC<QuizProps> = ({ quizData }) => {
   const getRandom = (arr: string[], n: number): string[] => {
     const result = new Array(n);
     let len = arr.length;
@@ -24,7 +28,7 @@ const Quiz: React.FC = () => {
     return result;
   };
 
-  const shuffle = (a: string[]) => {
+  const shuffle = (a: any[]) => {
     let j, x, i;
     for (i = a.length - 1; i > 0; i--) {
       j = Math.floor(Math.random() * (i + 1));
@@ -47,26 +51,32 @@ const Quiz: React.FC = () => {
   const [waitingToAdvance, setWaitingToAdvance] = useState(false);
 
   const allChoices = [
-    ...data.sufixWords?.map((a) => a.value),
+    ...quizData?.map((a) => a.value),
     ...data.sourceWordsCards.map((a) => a.value),
     ...data.prefixWords?.map((a) => a.value),
   ];
 
-  const allQuestionsLenght = data.sufixWords.length;
+  const allQuestionsLenght = quizData.length;
+
+  useEffect(() => {
+    shuffle(quizData);
+  }, []);
 
   useEffect(() => {
     if (currentQuestionIdx < allQuestionsLenght) {
       const choices = shuffle([
         ...getRandom(allChoices, 3),
-        data.sufixWords[currentQuestionIdx].value,
+        quizData[currentQuestionIdx].value,
       ]);
+
       const currectAnswerIdx = choices.findIndex((c) => {
-        return c === data.sufixWords[currentQuestionIdx].value;
+        return c === quizData[currentQuestionIdx].value;
       });
+
       setQuestionObj({
-        question: data.sufixWords[currentQuestionIdx].hebrew
-          ? `${data.sufixWords[currentQuestionIdx].english} ${data.sufixWords[currentQuestionIdx].hebrew}`
-          : data.sufixWords[currentQuestionIdx].english,
+        question: quizData[currentQuestionIdx].hebrew
+          ? `${quizData[currentQuestionIdx].english} ${quizData[currentQuestionIdx].hebrew}`
+          : quizData[currentQuestionIdx].english,
         choices: choices,
         currectAnswerIdx: currectAnswerIdx,
       });
@@ -108,7 +118,7 @@ const Quiz: React.FC = () => {
   return (
     <div className={classes.quizContainer}>
       <div className={globalClasses.back}>
-        <Link to="/">חזרה</Link>
+        <Link to="/trivia">חזרה</Link>
       </div>
       <StatBar
         currentQuestion={currentQuestionIdx + 1}

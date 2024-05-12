@@ -16,8 +16,6 @@ const Card: React.FC<{
           setShowAnswer(!showAnswer);
           setStaticAnswer(true);
         }}
-        // onMouseEnter={() => setShowAnswer(true)}
-        // onMouseOut={() => setShowAnswer(false)}
       >
         {`${english} ${hebrew}`}
       </button>
