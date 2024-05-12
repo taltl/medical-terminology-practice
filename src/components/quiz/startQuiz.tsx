@@ -10,31 +10,21 @@ const StartQuiz: React.FC = () => {
       </div>
       <div className={classes.startTrivia}>
         <h1>נושאים לטריוויה</h1>
-        <div className={classes.link}>
-          <Link to={"/trivia/1"}>
-            <span>מילות שורש</span>
-          </Link>
-        </div>
-        <div className={classes.link}>
-          <Link to={"/trivia/2"}>
-            <span>סופיות</span>
-          </Link>
-        </div>
-        <div className={classes.link}>
-          <Link to={"/trivia/3"}>
-            <span>תחיליות</span>
-          </Link>
-        </div>
-        <div className={classes.link}>
-          <Link to={"/trivia/4"}>
-            <span>מילות מיקום</span>
-          </Link>
-        </div>
-        <div className={classes.link}>
-          <Link to={"/trivia/5"}>
-            <span>תרופות</span>
-          </Link>
-        </div>
+        <Link to={"/trivia/1"}>
+          <button className={classes.link}>מילות שורש</button>
+        </Link>
+        <Link to={"/trivia/2"}>
+          <button className={classes.link}>סופיות</button>
+        </Link>
+        <Link to={"/trivia/3"}>
+          <button className={classes.link}>תחיליות</button>
+        </Link>
+        <Link to={"/trivia/4"}>
+          <button className={classes.link}>מילות מיקום</button>
+        </Link>
+        <Link to={"/trivia/5"}>
+          <button className={classes.link}>תרופות</button>
+        </Link>
       </div>
     </>
   );

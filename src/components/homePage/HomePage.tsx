@@ -6,16 +6,12 @@ const HomePage: React.FC<{}> = () => {
   return (
     <div className={classes.homePage}>
       <h1>תרגול טרמינולוגיה רפואית</h1>
-      <div className={classes.link}>
-        <Link to={"/trivia"}>
-          <span>טריוויה</span>
-        </Link>
-      </div>
-      <div className={classes.link}>
-        <Link to={"/cards"}>
-          <span>כרטיסיות</span>
-        </Link>
-      </div>
+      <Link to={"/trivia"}>
+        <button className={classes.link}>טריוויה</button>
+      </Link>
+      <Link to={"/cards"}>
+        <button className={classes.link}>כרטיסיות </button>
+      </Link>
     </div>
   );
 };
