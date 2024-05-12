@@ -15,6 +15,8 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/cards" element={<TabsContainer />}></Route>
         <Route path="/trivia" element={<Quiz />}></Route>
+        {/* <Route path="/trivia/1" element={< />}></Route> */}
+        {/* <Route path="/trivia/2" element={< />}></Route> */}
       </Routes>
     </BrowserRouter>
   );

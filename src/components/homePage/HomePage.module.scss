@@ -7,6 +7,9 @@
 
     h1 {
         margin-top: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+
     }
 
     .link {
@@ -22,6 +25,14 @@
         a {
             text-decoration: none;
             color: black;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .homePage {
+        h1 {
+            margin-top: 0;
         }
     }
 }

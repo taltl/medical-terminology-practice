@@ -8,12 +8,11 @@
   width: 85%;
   font-size: 20px;
   justify-content: center;
-  /* background: rgb(250, 235, 215, 0.6); */
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .cardContainer {
     width: 100%;
-    /* background-color: rgb(250, 235, 215, 0.6); */
-}
+    padding: 20px 0;
+  }
 }

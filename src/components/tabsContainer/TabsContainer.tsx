@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import CardContainer from "../cardsContainer/CardContainer";
-import "./TabsContainer.css";
 import data from "../../data.json";
 import { Link } from "react-router-dom";
 import globalClasses from "./../../global.module.scss";
+import classes from "./../tabsContainer/TabsContainer.module.scss";
 
 const tabs = [
   {
@@ -40,10 +40,12 @@ const TabsContainer: React.FC = () => {
       <div className={globalClasses.back}>
         <Link to="/">חזרה</Link>
       </div>
-      <div className="btnContainer">
+      <div className={classes.btnContainer}>
         {tabs.map((tab, index) => (
           <button
-            className={`tabBtn ${selectTab === index ? "selectedTab" : ""}`}
+            className={`${classes.tabBtn} ${
+              selectTab === index ? classes.selectedTab : ""
+            }`}
             onClick={() => setSelectTab(index)}
           >
             {tab.title}

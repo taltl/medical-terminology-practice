@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: rgb(228, 228, 212); */
   background-image: url("./components/uh-background.jpg");
-  /* background-repeat: no-repeat; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+:root {
+  --text: #303e55;
+  --btnBorder: #376ffc;
 }

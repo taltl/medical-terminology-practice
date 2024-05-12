@@ -3,14 +3,16 @@
   padding: 10px;
   background-color: rgba(252, 211, 159, 0.9254901961);
   opacity: 80%;
-  color: #000000;
+  color: var(--text);
   font-weight: 500;
   border-radius: 10px;
   font-size: 19px;
+}
 
-  // &:hover {
-  //   border: 1px solid rgb(255, 153, 0);
-  // }
-
-  // rgba(255, 115, 0, 0.9254901961)
+@media screen and (max-width: 992px) {
+  .answer {
+    width: 46%;
+    height: 100px;
+    margin-bottom: 20px;
+  }
 }

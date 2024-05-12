@@ -10,13 +10,13 @@
   font-size: 20px;
   background-color: transparent;
   border: none;
+  color: var(--text);
 }
 
 .selectedTab {
-    border-bottom: black 1px solid;
-    font-weight: bold;
+  border-bottom: var(--text) 1px solid;
+  font-weight: bold;
 }
-
 
 .english:hover {
   background-color: antiquewhite;

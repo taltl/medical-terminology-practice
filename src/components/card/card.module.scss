@@ -15,16 +15,18 @@
   font-weight: 500;
   text-align: center;
   font-size: 15px;
+  color: var(--text);
 }
 
-.english{
-    border-radius: 10px;
-    background-color: transparent;
-    padding: 10px;
-    border: 1px solid bisque;
-    font-weight: 500;
-    text-align: center;
-    font-size: 16px;
+.english {
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid var(--btnBorder);
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  color: var(--text);
 }
 
 /* .english :hover{
@@ -44,7 +46,7 @@ font-weight: bold;
   visibility: visible;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .card {
     width: 117px;
     height: 160px;
