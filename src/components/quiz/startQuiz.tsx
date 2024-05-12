@@ -6,7 +6,7 @@ const StartQuiz: React.FC = () => {
   return (
     <>
       <div className={globalClasses.back}>
-        <Link to="/trivia">חזרה</Link>
+        <Link to="/">חזרה</Link>
       </div>
       <div className={classes.startTrivia}>
         <h1>נושאים לטריוויה</h1>

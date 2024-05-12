@@ -12,6 +12,7 @@ function App() {
     // <Quiz />
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<HomePage />}></Route>
         <Route path="/react-select-test" element={<HomePage />}></Route>
         <Route path="/cards" element={<TabsContainer />}></Route>
         <Route path="/trivia" element={<StartQuiz />}></Route>
