@@ -8,12 +8,13 @@ import StartQuiz from "./components/quiz/startQuiz";
 
 function App() {
   return (
-    // <TabsContainer/>
-    // <Quiz />
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/react-select-test" element={<HomePage />}></Route>
+        <Route
+          path="/medical-terminology-practice"
+          element={<HomePage />}
+        ></Route>
         <Route path="/cards" element={<TabsContainer />}></Route>
         <Route path="/trivia" element={<StartQuiz />}></Route>
         <Route
@@ -29,15 +30,13 @@ function App() {
           element={<Quiz quizData={data.prefixWords} />}
         ></Route>
         <Route
-          path="/trivia/3"
+          path="/trivia/4"
           element={<Quiz quizData={data.locationWords} />}
         ></Route>
         <Route
-          path="/trivia/3"
+          path="/trivia/5"
           element={<Quiz quizData={data.pills} />}
         ></Route>
-
-        {/* <Route path="/trivia/2" element={< />}></Route> */}
       </Routes>
     </BrowserRouter>
   );
