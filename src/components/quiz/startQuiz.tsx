@@ -6,23 +6,23 @@ const StartQuiz: React.FC = () => {
   return (
     <>
       <div className={globalClasses.back}>
-        <Link to="/">חזרה</Link>
+        <Link to="/medical-terminology-practice/">חזרה</Link>
       </div>
       <div className={classes.startTrivia}>
         <h1>נושאים לטריוויה</h1>
-        <Link to={"/trivia/1"}>
+        <Link to={"/medical-terminology-practice/trivia/1"}>
           <button className={classes.link}>מילות שורש</button>
         </Link>
-        <Link to={"/trivia/2"}>
+        <Link to={"/medical-terminology-practice/trivia/2"}>
           <button className={classes.link}>סופיות</button>
         </Link>
-        <Link to={"/trivia/3"}>
+        <Link to={"/medical-terminology-practice/trivia/3"}>
           <button className={classes.link}>תחיליות</button>
         </Link>
-        <Link to={"/trivia/4"}>
+        <Link to={"/medical-terminology-practice/trivia/4"}>
           <button className={classes.link}>מילות מיקום</button>
         </Link>
-        <Link to={"/trivia/5"}>
+        <Link to={"/medical-terminology-practice/trivia/5"}>
           <button className={classes.link}>תרופות</button>
         </Link>
       </div>

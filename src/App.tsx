@@ -16,26 +16,32 @@ function App() {
           element={<HomePage />}
         ></Route>
         <Route path="/react-select-test" element={<HomePage />}></Route>
-        <Route path="/cards" element={<TabsContainer />}></Route>
-        <Route path="/trivia" element={<StartQuiz />}></Route>
         <Route
-          path="/trivia/1"
+          path="/medical-terminology-practice/cards"
+          element={<TabsContainer />}
+        ></Route>
+        <Route
+          path="/medical-terminology-practice/trivia"
+          element={<StartQuiz />}
+        ></Route>
+        <Route
+          path="/medical-terminology-practice/trivia/1"
           element={<Quiz quizData={data.sourceWordsCards} />}
         ></Route>
         <Route
-          path="/trivia/2"
+          path="/medical-terminology-practice/trivia/2"
           element={<Quiz quizData={data.sufixWords} />}
         ></Route>
         <Route
-          path="/trivia/3"
+          path="/medical-terminology-practice/trivia/3"
           element={<Quiz quizData={data.prefixWords} />}
         ></Route>
         <Route
-          path="/trivia/4"
+          path="/medical-terminology-practice/trivia/4"
           element={<Quiz quizData={data.locationWords} />}
         ></Route>
         <Route
-          path="/trivia/5"
+          path="/medical-terminology-practice/trivia/5"
           element={<Quiz quizData={data.pills} />}
         ></Route>
       </Routes>

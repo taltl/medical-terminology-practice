@@ -105,7 +105,7 @@ const Quiz: React.FC<QuizProps> = ({ quizData }) => {
     return (
       <div className={Quiz_module.resetContainer}>
         <div className={globalClasses.back}>
-          <Link to="/">חזרה</Link>
+          <Link to="/medical-terminology-practice">חזרה</Link>
         </div>
         <Reset
           totalQuestions={allQuestionsLenght}
@@ -118,7 +118,7 @@ const Quiz: React.FC<QuizProps> = ({ quizData }) => {
   return (
     <div className={classes.quizContainer}>
       <div className={globalClasses.back}>
-        <Link to="/trivia">חזרה</Link>
+        <Link to="/medical-terminology-practice/trivia">חזרה</Link>
       </div>
       <StatBar
         currentQuestion={currentQuestionIdx + 1}

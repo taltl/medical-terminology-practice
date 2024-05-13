@@ -38,7 +38,7 @@ const TabsContainer: React.FC = () => {
   return (
     <div>
       <div className={globalClasses.back}>
-        <Link to="/">חזרה</Link>
+        <Link to="/medical-terminology-practice">חזרה</Link>
       </div>
       <div className={classes.btnContainer}>
         {tabs.map((tab, index) => (
