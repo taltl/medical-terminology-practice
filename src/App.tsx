@@ -15,6 +15,7 @@ function App() {
           path="/medical-terminology-practice"
           element={<HomePage />}
         ></Route>
+        <Route path="/react-select-test" element={<HomePage />}></Route>
         <Route path="/cards" element={<TabsContainer />}></Route>
         <Route path="/trivia" element={<StartQuiz />}></Route>
         <Route
