@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/medical-terminology-practice/static/css/main.1604634f.css",
-    "main.js": "/medical-terminology-practice/static/js/main.5f5afae4.js",
+    "main.js": "/medical-terminology-practice/static/js/main.cdc67237.js",
     "static/js/453.66d5506c.chunk.js": "/medical-terminology-practice/static/js/453.66d5506c.chunk.js",
     "static/media/uh-background.jpg": "/medical-terminology-practice/static/media/uh-background.b8581352140db4e265b1.jpg",
     "index.html": "/medical-terminology-practice/index.html",
     "main.1604634f.css.map": "/medical-terminology-practice/static/css/main.1604634f.css.map",
-    "main.5f5afae4.js.map": "/medical-terminology-practice/static/js/main.5f5afae4.js.map",
+    "main.cdc67237.js.map": "/medical-terminology-practice/static/js/main.cdc67237.js.map",
     "453.66d5506c.chunk.js.map": "/medical-terminology-practice/static/js/453.66d5506c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1604634f.css",
-    "static/js/main.5f5afae4.js"
+    "static/js/main.cdc67237.js"
   ]
 }
