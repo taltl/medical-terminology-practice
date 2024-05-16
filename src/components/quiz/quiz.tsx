@@ -64,6 +64,10 @@ const Quiz: React.FC<QuizProps> = ({ quizData }) => {
 
   useEffect(() => {
     if (currentQuestionIdx < allQuestionsLenght) {
+      const answerIndex = allChoices.findIndex((c: string) => {
+        return quizData[currentQuestionIdx].value === c;
+      });
+      allChoices.splice(answerIndex, 1);
       const choices = shuffle([
         ...getRandom(allChoices, 3),
         quizData[currentQuestionIdx].value,
