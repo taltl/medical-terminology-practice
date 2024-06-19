@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/medical-terminology-practice/static/css/main.14c49bf7.css",
-    "main.js": "/medical-terminology-practice/static/js/main.6dcf6137.js",
+    "main.css": "/medical-terminology-practice/static/css/main.0da857ce.css",
+    "main.js": "/medical-terminology-practice/static/js/main.3d6ddcf7.js",
     "static/js/453.66d5506c.chunk.js": "/medical-terminology-practice/static/js/453.66d5506c.chunk.js",
     "static/media/uh-background.jpg": "/medical-terminology-practice/static/media/uh-background.b8581352140db4e265b1.jpg",
     "index.html": "/medical-terminology-practice/index.html",
-    "main.14c49bf7.css.map": "/medical-terminology-practice/static/css/main.14c49bf7.css.map",
-    "main.6dcf6137.js.map": "/medical-terminology-practice/static/js/main.6dcf6137.js.map",
+    "main.0da857ce.css.map": "/medical-terminology-practice/static/css/main.0da857ce.css.map",
+    "main.3d6ddcf7.js.map": "/medical-terminology-practice/static/js/main.3d6ddcf7.js.map",
     "453.66d5506c.chunk.js.map": "/medical-terminology-practice/static/js/453.66d5506c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14c49bf7.css",
-    "static/js/main.6dcf6137.js"
+    "static/css/main.0da857ce.css",
+    "static/js/main.3d6ddcf7.js"
   ]
 }
