@@ -47,7 +47,7 @@ function App() {
         ></Route>
         <Route
           path="/medical-terminology-practice/trivia/5"
-          element={<Quiz quizData={data.medications} />}
+          element={<Quiz quizData={data.medications} madications={true} />}
         ></Route>
       </Routes>
     </BrowserRouter>

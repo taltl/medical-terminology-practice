@@ -10,10 +10,11 @@ import globalClasses from "./../../global.module.scss";
 import classes from "./quiz.module.scss";
 
 type QuizProps = {
-  quizData: any[];
+  quizData: { nameEng: string; nameHeb?: string; meaning: string }[];
+  madications?: boolean;
 };
 
-const Quiz: React.FC<QuizProps> = ({ quizData }) => {
+const Quiz: React.FC<QuizProps> = ({ quizData, madications = false }) => {
   const getRandom = (arr: string[], n: number): string[] => {
     const result = new Array(n);
     let len = arr.length;
@@ -50,11 +51,18 @@ const Quiz: React.FC<QuizProps> = ({ quizData }) => {
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
   const [waitingToAdvance, setWaitingToAdvance] = useState(false);
 
-  const allChoices = [
-    ...quizData?.map((a) => a.value),
-    ...data.sourceWordsCards.map((a) => a.value),
-    ...data.prefixWords?.map((a) => a.value),
-  ];
+  const removeDuplicates = (arr: string[]) => {
+    return arr.filter((value, index) => arr.indexOf(value) === index);
+  };
+
+  const allChoices =
+    madications && quizData
+      ? removeDuplicates([...quizData.map((a) => a.meaning)])
+      : [
+          ...quizData.map((a) => a.meaning),
+          ...data.sourceWordsCards.map((a) => a.meaning),
+          ...data.prefixWords.map((a) => a.meaning),
+        ];
 
   const allQuestionsLenght = quizData.length;
 
@@ -63,24 +71,33 @@ const Quiz: React.FC<QuizProps> = ({ quizData }) => {
   }, []);
 
   useEffect(() => {
+    // console.log("AAAA");
+
     if (currentQuestionIdx < allQuestionsLenght) {
       const answerIndex = allChoices.findIndex((c: string) => {
-        return quizData[currentQuestionIdx].value === c;
+        console.log(quizData[currentQuestionIdx].meaning);
+        console.log(c);
+        console.log(quizData[currentQuestionIdx].meaning === c);
+        console.log("--------------------------------");
+
+        return quizData[currentQuestionIdx].meaning === c;
       });
       allChoices.splice(answerIndex, 1);
+      console.log(allChoices);
+
       const choices = shuffle([
         ...getRandom(allChoices, 3),
-        quizData[currentQuestionIdx].value,
+        quizData[currentQuestionIdx].meaning,
       ]);
 
       const currectAnswerIdx = choices.findIndex((c) => {
-        return c === quizData[currentQuestionIdx].value;
+        return c === quizData[currentQuestionIdx].meaning;
       });
 
       setQuestionObj({
-        question: quizData[currentQuestionIdx].hebrew
-          ? `${quizData[currentQuestionIdx].english} ${quizData[currentQuestionIdx].hebrew}`
-          : quizData[currentQuestionIdx].english,
+        question: quizData[currentQuestionIdx].nameHeb
+          ? `${quizData[currentQuestionIdx].nameEng} ${quizData[currentQuestionIdx].nameHeb}`
+          : quizData[currentQuestionIdx].nameEng,
         choices: choices,
         currectAnswerIdx: currectAnswerIdx,
       });
