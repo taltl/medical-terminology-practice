@@ -1,653 +1,1187 @@
 {
     "sourceWordsCards": [
         {
-            "english": "Abdomino",
-            "hebrew": "אבדומינו",
-            "value": "בטן / קיר הבטן"
+            "nameEng": "Abdomino",
+            "nameHeb": "אבדומינו",
+            "meaning": "בטן / קיר הבטן"
         },
         {
-            "english": "Angi-",
-            "hebrew": "אנגי",
-            "value": "כלי דם"
+            "nameEng": "Angi-",
+            "nameHeb": "אנגי",
+            "meaning": "כלי דם"
         },
         {
-            "english": "Aort-",
-            "hebrew": "אאורט",
-            "value": "עורק ראשי היוצא מחדר הלב"
+            "nameEng": "Aort-",
+            "nameHeb": "אאורט",
+            "meaning": "עורק ראשי היוצא מחדר הלב"
         },
         {
-            "english": "Arter-",
-            "hebrew": "ארטר",
-            "value": "עורק"
+            "nameEng": "Arter-",
+            "nameHeb": "ארטר",
+            "meaning": "עורק"
         },
         {
-            "english": "Asphyxia",
-            "hebrew": "אספירציה",
-            "value": "חנק"
+            "nameEng": "Asphyxia",
+            "nameHeb": "אספירציה",
+            "meaning": "חנק"
         },
         {
-            "english": "Bio-",
-            "hebrew": "ביו",
-            "value": "חיים"
+            "nameEng": "Bio-",
+            "nameHeb": "ביו",
+            "meaning": "חיים"
         },
         {
-            "english": "Card- Cardia-",
-            "hebrew": "קרד, קרדיה",
-            "value": "לב"
+            "nameEng": "Card- Cardia-",
+            "nameHeb": "קרד, קרדיה",
+            "meaning": "לב"
         },
         {
-            "english": "Corp-",
-            "hebrew": "קורפ",
-            "value": "הגוף"
+            "nameEng": "Corp-",
+            "nameHeb": "קורפ",
+            "meaning": "הגוף"
         },
         {
-            "english": "Cyc-",
-            "hebrew": "ציס",
-            "value": "מעגל"
+            "nameEng": "Cyc-",
+            "nameHeb": "ציס",
+            "meaning": "מעגל"
         },
         {
-            "english": "Cyst",
-            "hebrew": "צסט",
-            "value": "שלפחות ציסטה"
+            "nameEng": "Cyst",
+            "nameHeb": "צסט",
+            "meaning": "שלפחות ציסטה"
         },
         {
-            "english": "Dent-",
-            "hebrew": "דנט",
-            "value": "שן"
+            "nameEng": "Dent-",
+            "nameHeb": "דנט",
+            "meaning": "שן"
         },
         {
-            "english": "Edem-",
-            "hebrew": "אדמ",
-            "value": "נפיחות"
+            "nameEng": "Edem-",
+            "nameHeb": "אדמ",
+            "meaning": "נפיחות"
         },
         {
-            "english": "Embryo",
-            "hebrew": "אמבריו",
-            "value": "עובר"
+            "nameEng": "Embryo",
+            "nameHeb": "אמבריו",
+            "meaning": "עובר"
         },
         {
-            "english": "Enter-",
-            "hebrew": "אנטר",
-            "value": "מעיים"
+            "nameEng": "Enter-",
+            "nameHeb": "אנטר",
+            "meaning": "מעיים"
         },
         {
-            "english": "Eryth--",
-            "hebrew": "אריט",
-            "value": "אדום"
+            "nameEng": "Eryth--",
+            "nameHeb": "אריט",
+            "meaning": "אדום"
         },
         {
-            "english": "Flex",
-            "hebrew": "פלקס",
-            "value": "לכופף"
+            "nameEng": "Flex",
+            "nameHeb": "פלקס",
+            "meaning": "לכופף"
         },
         {
-            "english": "Fract-",
-            "hebrew": "פרקט",
-            "value": "לשבור לחתיכות"
+            "nameEng": "Fract-",
+            "nameHeb": "פרקט",
+            "meaning": "לשבור לחתיכות"
         },
         {
-            "english": "Gast",
-            "hebrew": "גסט",
-            "value": "בטן קיבה"
+            "nameEng": "Gast",
+            "nameHeb": "גסט",
+            "meaning": "בטן קיבה"
         },
         {
-            "english": "Gnosis",
-            "hebrew": "גנוסיס",
-            "value": "מידע"
+            "nameEng": "Gnosis",
+            "nameHeb": "גנוסיס",
+            "meaning": "מידע"
         },
         {
-            "english": "-graph",
-            "hebrew": "גרף",
-            "value": "לרשום"
+            "nameEng": "-graph",
+            "nameHeb": "גרף",
+            "meaning": "לרשום"
         },
         {
-            "english": "Hem- , em-",
-            "hebrew": "המ",
-            "value": "דם"
+            "nameEng": "Hem- , em-",
+            "nameHeb": "המ",
+            "meaning": "דם"
         },
         {
-            "english": "Homerus",
-            "hebrew": "הומרוס",
-            "value": "זרוע"
+            "nameEng": "Homerus",
+            "nameHeb": "הומרוס",
+            "meaning": "זרוע"
         },
         {
-            "english": "Hydr-",
-            "hebrew": "הידר",
-            "value": "מים"
+            "nameEng": "Hydr-",
+            "nameHeb": "הידר",
+            "meaning": "מים"
         },
         {
-            "english": "Hystr-",
-            "hebrew": "היסטר",
-            "value": "רחם"
+            "nameEng": "Hystr-",
+            "nameHeb": "היסטר",
+            "meaning": "רחם"
         },
         {
-            "english": "Ling-",
-            "hebrew": "לינג",
-            "value": "לשון"
+            "nameEng": "Ling-",
+            "nameHeb": "לינג",
+            "meaning": "לשון"
         },
         {
-            "english": "Mal-",
-            "hebrew": "מל",
-            "value": "רע, גרוע"
+            "nameEng": "Mal-",
+            "nameHeb": "מל",
+            "meaning": "רע, גרוע"
         },
         {
-            "english": "Med-",
-            "hebrew": "מד",
-            "value": "אמצע"
+            "nameEng": "Med-",
+            "nameHeb": "מד",
+            "meaning": "אמצע"
         },
         {
-            "english": "Mega-",
-            "hebrew": "מגה",
-            "value": "גדול"
+            "nameEng": "Mega-",
+            "nameHeb": "מגה",
+            "meaning": "גדול"
         },
         {
-            "english": "Melan-, Melen-",
-            "hebrew": "מלנ",
-            "value": "שחור"
+            "nameEng": "Melan-, Melen-",
+            "nameHeb": "מלנ",
+            "meaning": "שחור"
         },
         {
-            "english": "Men-, Mena-",
-            "hebrew": "מנ",
-            "value": "חודשי"
+            "nameEng": "Men-, Mena-",
+            "nameHeb": "מנ",
+            "meaning": "חודשי"
         },
         {
-            "english": "Menin-",
-            "hebrew": "מנין",
-            "value": "קרום המכסה את המוח וחוט השדרה"
+            "nameEng": "Menin-",
+            "nameHeb": "מנין",
+            "meaning": "קרום המכסה את המוח וחוט השדרה"
         },
         {
-            "english": "Morb-",
-            "hebrew": "מורב",
-            "value": "מחלה"
+            "nameEng": "Morb-",
+            "nameHeb": "מורב",
+            "meaning": "מחלה"
         },
         {
-            "english": "Myo-",
-            "hebrew": "מיו",
-            "value": "שריר"
+            "nameEng": "Myo-",
+            "nameHeb": "מיו",
+            "meaning": "שריר"
         },
         {
-            "english": "Nephr-",
-            "hebrew": "נפר",
-            "value": "כליה"
+            "nameEng": "Nephr-",
+            "nameHeb": "נפר",
+            "meaning": "כליה"
         },
         {
-            "english": "Oa-, oss-, ost-",
-            "hebrew": "אוס, אוסט",
-            "value": "עצם"
+            "nameEng": "Oa-, oss-, ost-",
+            "nameHeb": "אוס, אוסט",
+            "meaning": "עצם"
         },
         {
-            "english": "Opthalm",
-            "hebrew": "אופטלמ",
-            "value": "עין"
+            "nameEng": "Opthalm",
+            "nameHeb": "אופטלמ",
+            "meaning": "עין"
         },
         {
-            "english": "Pariet-",
-            "hebrew": "פרייט",
-            "value": "קיר"
+            "nameEng": "Pariet-",
+            "nameHeb": "פרייט",
+            "meaning": "קיר"
         },
         {
-            "english": "Pur-, pus-, py-",
-            "hebrew": "פר, פס, פי",
-            "value": "מוגלה"
+            "nameEng": "Pur-, pus-, py-",
+            "nameHeb": "פר, פס, פי",
+            "meaning": "מוגלה"
         },
         {
-            "english": "Pyel-",
-            "hebrew": "פיל",
-            "value": "אגן"
+            "nameEng": "Pyel-",
+            "nameHeb": "פיל",
+            "meaning": "אגן"
         },
         {
-            "english": "Pyr",
-            "hebrew": "פיר",
-            "value": "חום גבוה"
+            "nameEng": "Pyr",
+            "nameHeb": "פיר",
+            "meaning": "חום גבוה"
         },
         {
-            "english": "Pleur",
-            "hebrew": "פלאור",
-            "value": "קרום המכסה את הריאה"
+            "nameEng": "Pleur",
+            "nameHeb": "פלאור",
+            "meaning": "קרום המכסה את הריאה"
         },
         {
-            "english": "Pneum",
-            "hebrew": "פנאום",
-            "value": "ריאה"
+            "nameEng": "Pneum",
+            "nameHeb": "פנאום",
+            "meaning": "ריאה"
         },
         {
-            "english": "Pod",
-            "hebrew": "פוד",
-            "value": "רגל"
+            "nameEng": "Pod",
+            "nameHeb": "פוד",
+            "meaning": "רגל"
         },
         {
-            "english": "Pseud-",
-            "hebrew": "פסאוד",
-            "value": "לא אמיתי"
+            "nameEng": "Pseud-",
+            "nameHeb": "פסאוד",
+            "meaning": "לא אמיתי"
         },
         {
-            "english": "Psych",
-            "hebrew": "פסיכ",
-            "value": "נפש"
+            "nameEng": "Psych",
+            "nameHeb": "פסיכ",
+            "meaning": "נפש"
         },
         {
-            "english": "Quad- , quar-, quat-",
-            "hebrew": "קווד, קוור, קווט",
-            "value": "ארבע"
+            "nameEng": "Quad- , quar-, quat-",
+            "nameHeb": "קווד, קוור, קווט",
+            "meaning": "ארבע"
         },
         {
-            "english": "Radius",
-            "hebrew": "רדיוס",
-            "value": "מחוג"
+            "nameEng": "Radius",
+            "nameHeb": "רדיוס",
+            "meaning": "מחוג"
         },
         {
-            "english": "Ren-",
-            "hebrew": "רנ",
-            "value": "כליה"
+            "nameEng": "Ren-",
+            "nameHeb": "רנ",
+            "meaning": "כליה"
         },
         {
-            "english": "Rhin-",
-            "hebrew": "רין",
-            "value": "אף"
+            "nameEng": "Rhin-",
+            "nameHeb": "רין",
+            "meaning": "אף"
         },
         {
-            "english": "Scler-",
-            "hebrew": "סקלר",
-            "value": "קשה"
+            "nameEng": "Scler-",
+            "nameHeb": "סקלר",
+            "meaning": "קשה"
         },
         {
-            "english": "Scat-, seg-",
-            "hebrew": "סקט, סג",
-            "value": "לחתוך"
+            "nameEng": "Scat-, seg-",
+            "nameHeb": "סקט, סג",
+            "meaning": "לחתוך"
         },
         {
-            "english": "Sepsis",
-            "hebrew": "ספסיס",
-            "value": "מכיל חיידקים"
+            "nameEng": "Sepsis",
+            "nameHeb": "ספסיס",
+            "meaning": "מכיל חיידקים"
         },
         {
-            "english": "Sept-",
-            "hebrew": "ספט",
-            "value": "קיר/מחיצה"
+            "nameEng": "Sept-",
+            "nameHeb": "ספט",
+            "meaning": "קיר/מחיצה"
         },
         {
-            "english": "Serum",
-            "hebrew": "סרום",
-            "value": "נוזל הנוצר כאשר הדם נקרש"
+            "nameEng": "Serum",
+            "nameHeb": "סרום",
+            "meaning": "נוזל הנוצר כאשר הדם נקרש"
         },
         {
-            "english": "Sinus",
-            "hebrew": "סינוס",
-            "value": "חלל, חלול"
+            "nameEng": "Sinus",
+            "nameHeb": "סינוס",
+            "meaning": "חלל, חלול"
         },
         {
-            "english": "Somat-",
-            "hebrew": "סומט",
-            "value": "גוף"
+            "nameEng": "Somat-",
+            "nameHeb": "סומט",
+            "meaning": "גוף"
         },
         {
-            "english": "Sphincter",
-            "hebrew": "ספינקטר",
-            "value": "שריר סוגר"
+            "nameEng": "Sphincter",
+            "nameHeb": "ספינקטר",
+            "meaning": "שריר סוגר"
         },
         {
-            "english": "Spir-",
-            "hebrew": "ספיר",
-            "value": "ללפף, לסובב"
+            "nameEng": "Spir-",
+            "nameHeb": "ספיר",
+            "meaning": "ללפף, לסובב"
         },
         {
-            "english": "Statis",
-            "hebrew": "סטטיס",
-            "value": "עומד"
+            "nameEng": "Statis",
+            "nameHeb": "סטטיס",
+            "meaning": "עומד"
         },
         {
-            "english": "Stern-",
-            "hebrew": "סטרנ",
-            "value": "חזה"
+            "nameEng": "Stern-",
+            "nameHeb": "סטרנ",
+            "meaning": "חזה"
         },
         {
-            "english": "Stoma",
-            "hebrew": "סטומה",
-            "value": "פתח או פה"
+            "nameEng": "Stoma",
+            "nameHeb": "סטומה",
+            "meaning": "פתח או פה"
         },
         {
-            "english": "Tachy-",
-            "hebrew": "טאכי",
-            "value": "מהיר"
+            "nameEng": "Tachy-",
+            "nameHeb": "טאכי",
+            "meaning": "מהיר"
         },
         {
-            "english": "Temp-",
-            "hebrew": "טמפ",
-            "value": "זמן או רקה"
+            "nameEng": "Temp-",
+            "nameHeb": "טמפ",
+            "meaning": "זמן או רקה"
         },
         {
-            "english": "Tendon",
-            "hebrew": "טנדון",
-            "value": "גיד"
+            "nameEng": "Tendon",
+            "nameHeb": "טנדון",
+            "meaning": "גיד"
         },
         {
-            "english": "Toxis",
-            "hebrew": "טוקסיק",
-            "value": "רעיל"
+            "nameEng": "Toxis",
+            "nameHeb": "טוקסיק",
+            "meaning": "רעיל"
         },
         {
-            "english": "Trachea",
-            "hebrew": "טרכיאה",
-            "value": "קנה נשימה"
+            "nameEng": "Trachea",
+            "nameHeb": "טרכיאה",
+            "meaning": "קנה נשימה"
         },
         {
-            "english": "Ur-, Urin-",
-            "hebrew": "אור, אורין",
-            "value": "שתן"
+            "nameEng": "Ur-, Urin-",
+            "nameHeb": "אור, אורין",
+            "meaning": "שתן"
         },
         {
-            "english": "Vagina",
-            "hebrew": "וגינה",
-            "value": "תעלת מין נקבית"
+            "nameEng": "Vagina",
+            "nameHeb": "וגינה",
+            "meaning": "תעלת מין נקבית"
         },
         {
-            "english": "Vertebra",
-            "hebrew": "ורטברה",
-            "value": "חוליה"
+            "nameEng": "Vertebra",
+            "nameHeb": "ורטברה",
+            "meaning": "חוליה"
         },
         {
-            "english": "Vertebra",
-            "hebrew": "ורטברה",
-            "value": "חוליה"
+            "nameEng": "Vertebra",
+            "nameHeb": "ורטברה",
+            "meaning": "חוליה"
         },
         {
-            "english": "Vertigo",
-            "hebrew": "ורטיגו",
-            "value": "סחרחורת"
+            "nameEng": "Vertigo",
+            "nameHeb": "ורטיגו",
+            "meaning": "סחרחורת"
         }
     ],
     "prefixWords": [
         {
-            "english": "Anti",
-            "hebrew": "אנטי",
-            "value": "כנגד, בניגוד ל"
+            "nameEng": "Anti",
+            "nameHeb": "אנטי",
+            "meaning": "כנגד, בניגוד ל"
         },
         {
-            "english": "Auto",
-            "hebrew": "אוטו",
-            "value": "עצמי"
+            "nameEng": "Auto",
+            "nameHeb": "אוטו",
+            "meaning": "עצמי"
         },
         {
-            "english": "Bi",
-            "hebrew": "בי",
-            "value": "שניים"
+            "nameEng": "Bi",
+            "nameHeb": "בי",
+            "meaning": "שניים"
         },
         {
-            "english": "Brady",
-            "hebrew": "ברדי",
-            "value": "איטי"
+            "nameEng": "Brady",
+            "nameHeb": "ברדי",
+            "meaning": "איטי"
         },
         {
-            "english": "Contra",
-            "hebrew": "קונטרא",
-            "value": "בניגוד ל"
+            "nameEng": "Contra",
+            "nameHeb": "קונטרא",
+            "meaning": "בניגוד ל"
         },
         {
-            "english": "Dys",
-            "hebrew": "דיס",
-            "value": "עם קושי"
+            "nameEng": "Dys",
+            "nameHeb": "דיס",
+            "meaning": "עם קושי"
         },
         {
-            "english": "E ex",
-            "hebrew": "א אקס",
-            "value": "מתוך"
+            "nameEng": "E ex",
+            "nameHeb": "א אקס",
+            "meaning": "מתוך"
         },
         {
-            "english": "Ecto",
-            "hebrew": "אקטו",
-            "value": "מחוץ ל"
+            "nameEng": "Ecto",
+            "nameHeb": "אקטו",
+            "meaning": "מחוץ ל"
         },
         {
-            "english": "Endo",
-            "hebrew": "אנדו",
-            "value": "בתוך"
+            "nameEng": "Endo",
+            "nameHeb": "אנדו",
+            "meaning": "בתוך"
         },
         {
-            "english": "Epi",
-            "hebrew": "אפי",
-            "value": "מעל, על"
+            "nameEng": "Epi",
+            "nameHeb": "אפי",
+            "meaning": "מעל, על"
         },
         {
-            "english": "Erythro",
-            "hebrew": "אריטרו",
-            "value": "אדום"
+            "nameEng": "Erythro",
+            "nameHeb": "אריטרו",
+            "meaning": "אדום"
         },
         {
-            "english": "Hyper",
-            "hebrew": "היפר",
-            "value": "עודף"
+            "nameEng": "Hyper",
+            "nameHeb": "היפר",
+            "meaning": "עודף"
         },
         {
-            "english": "Hypo",
-            "hebrew": "היפו",
-            "value": "מתחת"
+            "nameEng": "Hypo",
+            "nameHeb": "היפו",
+            "meaning": "מתחת"
         },
         {
-            "english": "Hemi",
-            "hebrew": "המי",
-            "value": "חצי"
+            "nameEng": "Hemi",
+            "nameHeb": "המי",
+            "meaning": "חצי"
         },
         {
-            "english": "Macro",
-            "hebrew": "מקרו",
-            "value": "גדול"
+            "nameEng": "Macro",
+            "nameHeb": "מקרו",
+            "meaning": "גדול"
         },
         {
-            "english": "Micro",
-            "hebrew": "מיקרו",
-            "value": "קטן"
+            "nameEng": "Micro",
+            "nameHeb": "מיקרו",
+            "meaning": "קטן"
         },
         {
-            "english": "Sub",
-            "hebrew": "סאב",
-            "value": "מתחת"
+            "nameEng": "Sub",
+            "nameHeb": "סאב",
+            "meaning": "מתחת"
         },
         {
-            "english": "Supra",
-            "hebrew": "סופרה",
-            "value": "מעל"
+            "nameEng": "Supra",
+            "nameHeb": "סופרה",
+            "meaning": "מעל"
         },
         {
-            "english": "vaso",
-            "hebrew": "וסו",
-            "value": "כלי דם"
+            "nameEng": "vaso",
+            "nameHeb": "וסו",
+            "meaning": "כלי דם"
         }
     ],
     "sufixWords": [
         {
-            "english": "Algia",
-            "hebrew": "אלגיה",
-            "value": "קשור לכאב"
+            "nameEng": "Algia",
+            "nameHeb": "אלגיה",
+            "meaning": "קשור לכאב"
         },
         {
-            "english": "Ectomy",
-            "hebrew": "אקטומי",
-            "value": "חיתוך והוצאה"
+            "nameEng": "Ectomy",
+            "nameHeb": "אקטומי",
+            "meaning": "חיתוך והוצאה"
         },
         {
-            "english": "Emia",
-            "hebrew": "אמיה",
-            "value": "דם"
+            "nameEng": "Emia",
+            "nameHeb": "אמיה",
+            "meaning": "דם"
         },
         {
-            "english": "It is",
-            "hebrew": "יטיס",
-            "value": "דלקת"
+            "nameEng": "It is",
+            "nameHeb": "יטיס",
+            "meaning": "דלקת"
         },
         {
-            "english": "Ostomy",
-            "hebrew": "אוסטומי",
-            "value": "יצירת פתח"
+            "nameEng": "Ostomy",
+            "nameHeb": "אוסטומי",
+            "meaning": "יצירת פתח"
         },
         {
-            "english": "Oma",
-            "hebrew": "אומה",
-            "value": "גידול"
+            "nameEng": "Oma",
+            "nameHeb": "אומה",
+            "meaning": "גידול"
         },
         {
-            "english": "Osis",
-            "hebrew": "אוסיס",
-            "value": "מצב של"
+            "nameEng": "Osis",
+            "nameHeb": "אוסיס",
+            "meaning": "מצב של"
         },
         {
-            "english": "Pathy",
-            "hebrew": "פטי",
-            "value": "מחלה"
+            "nameEng": "Pathy",
+            "nameHeb": "פטי",
+            "meaning": "מחלה"
         },
         {
-            "english": "Rhytmia",
-            "hebrew": "ריטמיה",
-            "value": "קצב"
+            "nameEng": "Rhytmia",
+            "nameHeb": "ריטמיה",
+            "meaning": "קצב"
         },
         {
-            "english": "Scope",
-            "hebrew": "סקופ",
-            "value": "מכשיר בדיקה"
+            "nameEng": "Scope",
+            "nameHeb": "סקופ",
+            "meaning": "מכשיר בדיקה"
         },
         {
-            "english": "Scopy",
-            "hebrew": "סקופי",
-            "value": "בדיקה עם מכשיר"
+            "nameEng": "Scopy",
+            "nameHeb": "סקופי",
+            "meaning": "בדיקה עם מכשיר"
         }
     ],
     "locationWords": [
         {
-            "english": "Superior",
-            "value": "עליון"
+            "nameEng": "Superior",
+            "meaning": "עליון"
         },
         {
-            "english": "Top",
-            "value": "עליון/ חלק עליון"
+            "nameEng": "Top",
+            "meaning": "עליון/ חלק עליון"
         },
         {
-            "english": "Anterior",
-            "value": "קדמי"
+            "nameEng": "Anterior",
+            "meaning": "קדמי"
         },
         {
-            "english": "Sagittal",
-            "value": "מלפנים לאחור"
+            "nameEng": "Sagittal",
+            "meaning": "מלפנים לאחור"
         },
         {
-            "english": "Lateral",
-            "value": "צדדי"
+            "nameEng": "Lateral",
+            "meaning": "צדדי"
         },
         {
-            "english": "Proximal",
-            "value": "מקורב ל-"
+            "nameEng": "Proximal",
+            "meaning": "מקורב ל-"
         },
         {
-            "english": "Right",
-            "value": "ימין"
+            "nameEng": "Right",
+            "meaning": "ימין"
         },
         {
-            "english": "Transverse",
-            "value": "רוחבי"
+            "nameEng": "Transverse",
+            "meaning": "רוחבי"
         },
         {
-            "english": "Inferior",
-            "value": "תחתון"
+            "nameEng": "Inferior",
+            "meaning": "תחתון"
         },
         {
-            "english": "Bottom",
-            "value": "תחתון/ חלק תחתון"
+            "nameEng": "Bottom",
+            "meaning": "תחתון/ חלק תחתון"
         },
         {
-            "english": "Posterior",
-            "value": "אחורי"
+            "nameEng": "Posterior",
+            "meaning": "אחורי"
         },
         {
-            "english": "Coronal",
-            "value": "מימין לשמאל"
+            "nameEng": "Coronal",
+            "meaning": "מימין לשמאל"
         },
         {
-            "english": "Medial",
-            "value": "מדיאל"
+            "nameEng": "Medial",
+            "meaning": "מדיאל"
         },
         {
-            "english": "Distal",
-            "value": "מרוחק מ-"
+            "nameEng": "Distal",
+            "meaning": "מרוחק מ-"
         },
         {
-            "english": "Left",
-            "value": "שמאל"
+            "nameEng": "Left",
+            "meaning": "שמאל"
         }
     ],
-    "pills": [
+    "medicationsFamilies": [
         {
-            "english": "להורדת לחץ דם, להאטת קצב הלב ולמניעת הפרעות קצב",
-            "value": "חוסמי בתא"
+            "nameHeb": "חוסמי בתא",
+            "meaning": "להורדת לחץ דם, להאטת קצב הלב ולמניעת הפרעות קצב"
         },
         {
-            "english": "תרופות מונעות קרישי דם חדשים בכלי הדם/ מעכבות את היצמדות טסיות הדם",
-            "value": "נוגדי קרישה"
+            "nameHeb": "נוגדי קרישה",
+            "meaning": "תרופות מונעות קרישי דם חדשים בכלי הדם/ מעכבות את היצמדות טסיות הדם"
         },
         {
-            "english": "תרופות להורדת לחץ דם ולהאטת קצב לב",
-            "value": "חסמי תעלות סידן"
+            "nameHeb": "חסמי תעלות סידן",
+            "meaning": "תרופות להורדת לחץ דם ולהאטת קצב לב"
         },
         {
-            "english": "להורדת לחץ דם",
-            "value": "ACE חסמי אנזים אנגיוטנסין"
+            "nameHeb": "ACE חסמי אנזים, אנגיוטנסין",
+            "meaning": "להורדת לחץ דם"
         },
         {
-            "english": "להורדת לחץ דם",
-            "value": "חסמי קולטנים לאנגיוטנסין דומה לACE"
+            "nameHeb": "חסמי קולטנים ל,אנגיוטנסין דומה לACE",
+            "meaning": "להורדת לחץ דם"
         },
         {
-            "english": "לטיפול בהפרעות קצב",
-            "value": "אנטי-אריתמטי"
+            "nameHeb": "אנטי-אריתמטי",
+            "meaning": "לטיפול בהפרעות קצב"
         },
         {
-            "english": "להרחבת כלי דם/הורדת לחץ דם ולטיפול בבלוטת הערמונית",
-            "value": "חוסמי אלפא"
+            "nameHeb": "חוסמי אלפא",
+            "meaning": "להרחבת כלי דם/הורדת לחץ דם ולטיפול בבלוטת הערמונית"
         },
         {
-            "english": "תרופות להפחתת כאב, להורדת חום ואני-דלקתיות",
-            "value": "NSAIDS- תרופות אנטי דלקתיות ללא סטרואידים"
+            "nameHeb": "NSAIDS- תרופות אנטי דלקתיות ללא סטרואידים",
+            "meaning": "תרופות להפחתת כאב, להורדת חום ואני-דלקתיות"
         },
         {
-            "english": "לטיפול בפעילות יתר או תת פעילות של בלוטת התריס",
-            "value": "Thyroid"
+            "nameHeb": "Thyroid",
+            "meaning": "לטיפול בפעילות יתר או תת פעילות של בלוטת התריס"
         },
         {
-            "english": "פועלות להרחבת הסימפונות, הפחתת דלקת בדרכי הנשימה",
-            "value": "אסטמה + COPD"
+            "nameHeb": "אסטמה + COPD",
+            "meaning": "פועלות להרחבת הסימפונות, הפחתת דלקת בדרכי הנשימה"
         },
         {
-            "english": "להורדת לחץ דם ולטיפול באי ספיקת לב",
-            "value": "Diuretics משתנים"
+            "nameHeb": "Diuretics משתנים",
+            "meaning": "להורדת לחץ דם ולטיפול באי ספיקת לב"
         },
         {
-            "english": "לטיפול בבעיות פסיכיאטריות",
-            "value": "אנטיפסיכוטים"
+            "nameHeb": "אנטיפסיכוטים",
+            "meaning": "לטיפול בבעיות פסיכיאטריות"
         },
         {
-            "english": "להפחתת כאב",
-            "value": "משככי כאבים מסוג אופייטים"
+            "nameHeb": "משככי כאבים, מסוג אופייטים",
+            "meaning": "להפחתת כאב"
         },
         {
-            "english": "להרחבת כלי דם פריפריים, להורדת לחץ דם ולטיפול בתעוקת חזה",
-            "value": "ניטרטים"
+            "nameHeb": "ניטרטים",
+            "meaning": "להרחבת כלי דם פריפריים, להורדת לחץ דם ולטיפול בתעוקת חזה"
         },
         {
-            "english": "לטיפול ביתר שומנים בדם ובתסמונת מטבולית",
-            "value": "סטאטינים"
+            "nameHeb": "סטאטינים",
+            "meaning": "לטיפול ביתר שומנים בדם ובתסמונת מטבולית"
         },
         {
-            "english": "לטיפול ומניעת פרכוסים",
-            "value": "נוגדות פירכוסים"
+            "nameHeb": "נוגדות פירכוסים",
+            "meaning": "לטיפול ומניעת פרכוסים"
         },
         {
-            "english": "תרופות להרגעה/שינה",
-            "value": "בנזואפינים"
+            "nameHeb": "בנזואפינים",
+            "meaning": "תרופות להרגעה/שינה"
         },
         {
-            "english": "לאיזון רמת הסוכר בדם ולטיפול בחולי סכרת",
-            "value": "תרופות לטיפול בסכרת"
+            "nameHeb": "תרופות לטיפול בסכרת",
+            "meaning": "לאיזון רמת הסוכר בדם ולטיפול בחולי סכרת"
         },
         {
-            "english": "לטיפול בדיכאון קליני ובשכיחות מצבי רוח קיצוניים",
-            "value": "נוגדי דיכאון"
+            "nameHeb": "נוגדי דיכאון",
+            "meaning": "לטיפול בדיכאון קליני ובשכיחות מצבי רוח קיצוניים"
+        }
+    ],
+    "medications": [
+        {
+            "nameEng": "ABITREN",
+            "meaning": "אנטי דלקתי- ללא סטרואידים"
+        },
+        {
+            "nameEng": "ACERIL",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "AEROVENT",
+            "meaning": "אסטמה + COPD"
+        },
+        {
+            "nameEng": "ALDACTON",
+            "meaning": "משתנים"
+        },
+        {
+            "nameEng": "ALDOSPIRONE",
+            "meaning": "משתנים"
+        },
+        {
+            "nameEng": "ASIDEX",
+            "meaning": "משתנים"
+        },
+        {
+            "nameEng": "AMIODORONE",
+            "meaning": "אנטי אריתמי"
+        },
+        {
+            "nameEng": "ASSIVAL",
+            "meaning": "בנזואפינים"
+        },
+        {
+            "nameEng": "ASPIRIN",
+            "meaning": "נוגדי קרישה"
+        },
+        {
+            "nameEng": "ATACAND",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "AVENDIA",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "BECOTIDE",
+            "meaning": "אסטמה + COPD"
+        },
+        {
+            "nameEng": "BEZALIP",
+            "meaning": "שומנים בדם"
+        },
+        {
+            "nameEng": "BONDORMIN",
+            "meaning": "בנזואפינים"
+        },
+        {
+            "nameEng": "BUDICORT",
+            "meaning": "אסטמה + COPD"
+        },
+        {
+            "nameEng": "CADEX",
+            "meaning": "אנטי דלקתי- ללא סטרואידים"
+        },
+        {
+            "nameEng": "CAPOTEN",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "CARDULAR",
+            "meaning": "אנטי דלקתי- ללא סטרואידים"
+        },
+        {
+            "nameEng": "CARTIA",
+            "meaning": "נוגדי קרישה"
+        },
+        {
+            "nameEng": "CEMIDIN",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "CIPRAMIL",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "CLONEX",
+            "meaning": "בנזואפינים"
+        },
+        {
+            "nameEng": "CO-DIOVAN",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "CONCOR",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "CONVERTIN",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "COUMADIN",
+            "meaning": "נוגדי קרישה"
+        },
+        {
+            "nameEng": "CORDIL",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "CROMOLYN SODIUM",
+            "meaning": "אסטמה + COPD"
+        },
+        {
+            "nameEng": "DAONIL",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "DERALIN",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "DEPALEPT",
+            "meaning": "פרכוסים"
+        },
+        {
+            "nameEng": "DEPONIT",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "DIAZEPAM",
+            "meaning": "בנזואפינים"
+        },
+        {
+            "nameEng": "DILANTIN",
+            "meaning": "פרכוסים"
+        },
+        {
+            "nameEng": "DILATAM",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "DIOVAN",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "DIMITONE",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "DIPYRONE",
+            "meaning": "אנטי דלקתי- ללא סטרואידים"
+        },
+        {
+            "nameEng": "DOPICAR",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "EFEXOR",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "ELATROL",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "ELTROXIN",
+            "meaning": "בלוטת התריס"
+        },
+        {
+            "nameEng": "ENALAPRIL",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "ETOPAN",
+            "meaning": "אנטי דלקתי- ללא סטרואידים"
+        },
+        {
+            "nameEng": "EVISTA",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "EXELOR",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "FAVOXIL",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "FOSSALAN",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "FUSID",
+            "meaning": "משתנים"
+        },
+        {
+            "nameEng": "GLIBETIC",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "GLUBEN",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "HEPARIN",
+            "meaning": "נוגדי קרישה"
+        },
+        {
+            "nameEng": "HUMULIN",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "IKACOR",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "IKAPRESS",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "INDOMED",
+            "meaning": "אנטי דלקתי- ללא סטרואידים"
+        },
+        {
+            "nameEng": "INHIBACE",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "ISOKET",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "ISOCARD",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "ISOTARD",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "KALURIL",
+            "meaning": "משתנים"
+        },
+        {
+            "nameEng": "LANTOS",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "LASIX",
+            "meaning": "משתנים"
+        },
+        {
+            "nameEng": "LIPIDAD",
+            "meaning": "שומנים בדם"
+        },
+        {
+            "nameEng": "LOPRESOR",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "LORAZEPAN",
+            "meaning": "בנזואפינים"
+        },
+        {
+            "nameEng": "LOREVAL",
+            "meaning": "אנטיפסיכוטי"
+        },
+        {
+            "nameEng": "LOSARTEN",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "LOSEC",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "LOVALIP",
+            "meaning": "שומנים בדם"
+        },
+        {
+            "nameEng": "LUMINAL",
+            "meaning": "פרכוסים"
+        },
+        {
+            "nameEng": "MAALOX",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "MARONIL",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "MEGALAT",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "MERCAPTIZOL",
+            "meaning": "בלוטת התריס"
+        },
+        {
+            "nameEng": "METAFORMIN",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "MODAL",
+            "meaning": "אנטיפסיכוטי"
+        },
+        {
+            "nameEng": "MONONIT",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "MONOCARD",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "MOPHIN",
+            "meaning": "אופייאטים"
+        },
+        {
+            "nameEng": "NAROCIN",
+            "meaning": "אנטי דלקתי- ללא סטרואידים"
+        },
+        {
+            "nameEng": "NEOBLOC",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "NIFEDIPINE",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "NITRODERM",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "NITROGLYCERIN",
+            "meaning": "ניטרטים"
+        },
+        {
+            "nameEng": "NORMALOL",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "NORMITEN",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "NORVASC",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "NOVONORM",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "NOVOMIX",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "NUMBON",
+            "meaning": "בנזואפינים"
+        },
+        {
+            "nameEng": "OSMOADALAT",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "OCSAAR",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "PAPAVERINE",
+            "meaning": "אופייאטים"
+        },
+        {
+            "nameEng": "PENEDIL",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "PERCODAN",
+            "meaning": "אופייאטים"
+        },
+        {
+            "nameEng": "PHENYTION",
+            "meaning": "פרכוסים"
+        },
+        {
+            "nameEng": "PLAVIX-antiplatelet",
+            "meaning": "נוגדי קרישה"
+        },
+        {
+            "nameEng": "PPI-NEXIUM",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "PPI-OMEPRADEX",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "PRANDASE",
+            "meaning": "סכרת"
+        },
+        {
+            "nameEng": "PRESSOLAT",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "PRIZMA",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "PROCOR",
+            "meaning": "אנטי אריתמי"
+        },
+        {
+            "nameEng": "PROZAN",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "QUINIDINE",
+            "meaning": "אנטי אריתמי"
+        },
+        {
+            "nameEng": "RISPERDAL",
+            "meaning": "אנטיפסיכוטי"
+        },
+        {
+            "nameEng": "RYTHMEX",
+            "meaning": "אנטי אריתמי"
+        },
+        {
+            "nameEng": "SEDURAL",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "SEROXAT",
+            "meaning": "נוגדי דיכאון"
+        },
+        {
+            "nameEng": "SIMOVIL",
+            "meaning": "שומנים בדם"
+        },
+        {
+            "nameEng": "SOLUMEDROL",
+            "meaning": "אסטמה + COPD"
+        },
+        {
+            "nameEng": "SOTALOL",
+            "meaning": "חוסמי בטא"
+        },
+        {
+            "nameEng": "STEROIDS",
+            "meaning": "אסטמה + COPD"
+        },
+        {
+            "nameEng": "TAMBOCOR",
+            "meaning": "אנטי אריתמי"
+        },
+        {
+            "nameEng": "TEGRETOL",
+            "meaning": "פרכוסים"
+        },
+        {
+            "nameEng": "THEOTARD",
+            "meaning": "אסטמה + COPD"
+        },
+        {
+            "nameEng": "THIAZIDE",
+            "meaning": "משתנים"
+        },
+        {
+            "nameEng": "TICLIDIL",
+            "meaning": "נוגדי קרישה"
+        },
+        {
+            "nameEng": "TRAMADEX",
+            "meaning": "אופייאטים"
+        },
+        {
+            "nameEng": "TRITACE",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "VALPORAL",
+            "meaning": "פרכוסים"
+        },
+        {
+            "nameEng": "VALIUM",
+            "meaning": "בנזואפינים"
+        },
+        {
+            "nameEng": "VABEN",
+            "meaning": "אנטיפסיכוטי בנזואפינים"
+        },
+        {
+            "nameEng": "VALSARTAN",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "VASCACE",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "VASOPRIL",
+            "meaning": "ACE"
+        },
+        {
+            "nameEng": "VERAPRESS",
+            "meaning": "חסמי תעלת סידן"
+        },
+        {
+            "nameEng": "XANAX",
+            "meaning": "אנטיפסיכוטי"
+        },
+        {
+            "nameEng": "XLEXAN",
+            "meaning": "נוגדי קרישה"
+        },
+        {
+            "nameEng": "ZANTAC",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "ZOTON",
+            "meaning": "אחר"
+        },
+        {
+            "nameEng": "ZYPREXA",
+            "meaning": "אנטיפסיכוטי"
         }
     ]
 }

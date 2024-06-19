@@ -16,7 +16,7 @@ const Medications: React.FC = () => {
           return (
             <div className={classes.medication}>
               <span className={classes.name}>
-                {"- " + medicationsFamily.name}
+                {"- " + medicationsFamily.nameHeb}
               </span>
               <br></br>
               <span className={classes.meaning}>

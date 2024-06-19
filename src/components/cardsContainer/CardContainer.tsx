@@ -3,7 +3,7 @@ import Card from "../card/card";
 import classes from "./cardContainer.module.scss";
 
 const CardContainer: React.FC<{
-  cards: { english: string; hebrew?: string; value: string }[];
+  cards: { nameEng: string; nameHeb?: string; meaning: string }[];
 }> = ({ cards }) => {
   return (
     <div className={classes.cardContainer}>
@@ -11,9 +11,9 @@ const CardContainer: React.FC<{
         return (
           <Card
             key={index}
-            english={card.english}
-            hebrew={card.hebrew ?? ""}
-            value={card.value}
+            english={card.nameEng}
+            hebrew={card.nameHeb ?? ""}
+            value={card.meaning}
           />
         );
       })}
