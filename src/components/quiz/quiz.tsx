@@ -71,20 +71,11 @@ const Quiz: React.FC<QuizProps> = ({ quizData, madications = false }) => {
   }, []);
 
   useEffect(() => {
-    // console.log("AAAA");
-
     if (currentQuestionIdx < allQuestionsLenght) {
       const answerIndex = allChoices.findIndex((c: string) => {
-        console.log(quizData[currentQuestionIdx].meaning);
-        console.log(c);
-        console.log(quizData[currentQuestionIdx].meaning === c);
-        console.log("--------------------------------");
-
         return quizData[currentQuestionIdx].meaning === c;
       });
       allChoices.splice(answerIndex, 1);
-      console.log(allChoices);
-
       const choices = shuffle([
         ...getRandom(allChoices, 3),
         quizData[currentQuestionIdx].meaning,
