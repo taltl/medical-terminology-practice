@@ -12,9 +12,9 @@ const HomePage: React.FC<{}> = () => {
       <Link to={"/medical-terminology-practice/cards"}>
         <button className={classes.link}>כרטיסיות </button>
       </Link>
-      {/* <Link to={"/medical-terminology-practice/medications"}>
-        <button className={classes.link}>תרופות </button>
-      </Link> */}
+      <Link to={"/medical-terminology-practice/medications"}>
+        <button className={classes.link}>משפחות של תרופות</button>
+      </Link>
     </div>
   );
 };

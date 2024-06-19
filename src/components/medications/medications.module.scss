@@ -1,5 +1,8 @@
 .medications {
     text-align: end;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    padding: 20px;
 }
 
 .medication {
@@ -15,5 +18,16 @@
         font-size: 16px;
         font-weight: 400;
 
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .medications {
+        text-align: center;
+        width: max-content;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 25px;
+        padding: 20px;
     }
 }
