@@ -1,0 +1,19 @@
+.medications {
+    text-align: end;
+}
+
+.medication {
+    padding: 10px;
+    margin-bottom: 5px;
+
+    .name {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .meaning {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+}

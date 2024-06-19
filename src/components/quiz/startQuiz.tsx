@@ -37,12 +37,12 @@ const StartQuiz: React.FC = () => {
         >
           מילות מיקום
         </button>
-        {/* <button
-            onClick={() => navigate("/medical-terminology-practice/trivia/5")}
-            className={classes.link}
-          >
-            תרופות
-          </button> */}
+        <button
+          onClick={() => navigate("/medical-terminology-practice/trivia/5")}
+          className={classes.link}
+        >
+          תרופות
+        </button>
       </div>
     </>
   );

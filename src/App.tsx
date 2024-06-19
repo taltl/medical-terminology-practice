@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/homePage/HomePage";
 import data from "./data.json";
 import StartQuiz from "./components/quiz/startQuiz";
+import Medications from "./components/medications/medications";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
           element={<StartQuiz />}
         ></Route>
         <Route
+          path="/medical-terminology-practice/medications"
+          element={<Medications />}
+        ></Route>
+        <Route
           path="/medical-terminology-practice/trivia/1"
           element={<Quiz quizData={data.sourceWordsCards} />}
         ></Route>
@@ -42,7 +47,7 @@ function App() {
         ></Route>
         <Route
           path="/medical-terminology-practice/trivia/5"
-          element={<Quiz quizData={data.pills} />}
+          element={<Quiz quizData={data.medications} />}
         ></Route>
       </Routes>
     </BrowserRouter>

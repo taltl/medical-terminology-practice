@@ -28,7 +28,7 @@ const sourceWordsCards = data.sourceWordsCards;
 const prefixWords = data.prefixWords;
 const sufixWords = data.sufixWords;
 const locationWords = data.locationWords;
-const pills = data.pills;
+const medications = data.medications;
 
 const cards = [sufixWords, prefixWords, sourceWordsCards, locationWords];
 
